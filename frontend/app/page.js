@@ -1,7 +1,7 @@
 "use client"
 import { Navigation } from "./componenet/Navigation";
 import { useDispatch, useSelector } from "react-redux";
-import { changeName } from "./componenet/store/mainSlice";
+import { changeName } from "./componenet/redux/mainSlice";
 
 export default function Home() {
   const main = useSelector((state)=> state.main);
