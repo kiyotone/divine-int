@@ -1,8 +1,8 @@
 "use client";
-import { Navigation } from "./componenet/Navigation";
-import Hero from "./componenet/Hero";
+import { Navigation } from "./componenets/Navigation";
+import Hero from "./componenets/Hero";
 import { useDispatch, useSelector } from "react-redux";
-import { changeName } from "./componenet/redux/mainSlice";
+import { changeName } from "./componenets/redux/mainSlice";
 
 export default function Home() {
   const main = useSelector((state) => state.main);
