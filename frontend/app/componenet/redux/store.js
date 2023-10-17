@@ -1,9 +1,9 @@
 import { configureStore } from "@reduxjs/toolkit";
 
-import yearReducer from "./countAction";
+import mainReducer from "./mainSlice";
 
 export const store = configureStore({
   reducer: {
-    year: yearReducer,
+    main: mainReducer,
   },
 });
