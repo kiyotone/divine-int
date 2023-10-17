@@ -23,7 +23,7 @@ export const Navigation = () => {
           </Link>
         </div>
         <div className="flex items-center">
-          <div className="flex gap-2">
+          <div className="flex gap-2 mx-6">
             <BsTelephoneFill className="text-[#fadd88] h-4 w-4 " />
             <span>Phone No</span>
           </div>
