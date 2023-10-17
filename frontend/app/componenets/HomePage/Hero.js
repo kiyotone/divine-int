@@ -1,5 +1,5 @@
 import React from "react";
-import hero from "../../public/hero.jpeg";
+import hero from "../../../public/hero.jpeg";
 
 const Hero = () => {
   return (
