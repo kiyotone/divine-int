@@ -9,8 +9,8 @@ import { HiOutlineMail } from "react-icons/hi";
 
 export const Navigation = () => {
   return (
-    <div>
-      <div className="p-2 bg-[#2844a1] flex justify-around text-xs">
+    <div className="">
+      <div className="px-40 py-2 bg-[#2844a1] flex justify-between text-xs">
         <div className="flex gap-5">
           <Link href="https://www.facebook.com/divinediaintl/" target="#">
             <BsFacebook className="text-[#fadd88] h-5 w-5" />
@@ -23,19 +23,19 @@ export const Navigation = () => {
           </Link>
         </div>
         <div className="flex items-center">
-          <div className="flex gap-2 mx-6">
+          <div className="flex gap-2">
             <BsTelephoneFill className="text-[#fadd88] h-4 w-4 " />
             <span>Phone No</span>
           </div>
           <div className="h-full rounded-md w-[1px] bg-[rgb(238,238,238,0.5)]"></div>
-          <div className="flex gap-2 mx-6">
+          <div className="flex gap-2">
             <HiOutlineMail className="text-[#fadd88] h-4 w-4 " />
             <span>sumanou11@gmail.com</span>
           </div>
         </div>
       </div>
-      <div className="navbar bg-[#fff] p-3 flex justify-around text-[#333]">
-        <div className="ml-[3rem]">
+      <div className=" px-40 py-7 bg-[#fff] flex justify-between text-[#333]">
+        <div className="">
           <a href="#">
             <Image
               src={logo}
@@ -44,8 +44,8 @@ export const Navigation = () => {
             />
           </a>
         </div>
-        <div className="flex-none  mr-[3rem]">
-          <ul className="menu menu-horizontal px-1 flex items-center ">
+        <div className="">
+          <ul className="menu menu-horizontal flex items-center ">
             <li>
               <a>About Us</a>
             </li>
@@ -58,7 +58,7 @@ export const Navigation = () => {
             <li>
               <a>Contact Us</a>
             </li>
-            <li className="ml-1">
+            <li className="">
               <button className="btn btn-success button-primary">
                 Join with us
               </button>
