@@ -1,6 +1,6 @@
 "use client";
 import { Navigation } from "./componenets/Navigation";
-import Hero from "./componenets/Hero";
+import Hero from "./componenets/HomePage/Hero";
 import { useDispatch, useSelector } from "react-redux";
 import { changeName } from "./componenets/redux/mainSlice";
 
