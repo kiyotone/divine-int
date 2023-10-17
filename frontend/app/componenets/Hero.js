@@ -7,7 +7,8 @@ const Hero = () => {
       <div
         className="hero min-h-[75vh]"
         style={{
-          backgroundImage: "url(${hero})",
+          backgroundImage: `url(${hero.src})`,
+          backgroundSize: "cover",
         }}
       >
         <div className="hero-overlay bg-opacity-60"></div>
@@ -20,7 +21,7 @@ const Hero = () => {
               Become A Medium Of Multi Things From The Base Of Agriculture To
               The High Point Of Science And Technology.
             </p>
-            <button className="btn btn-primary">Get Started</button>
+            <button className="btn button-primary">Join With Us</button>
           </div>
         </div>
       </div>

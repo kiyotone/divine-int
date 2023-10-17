@@ -20,15 +20,6 @@ export default function Home() {
     <main className="text-white ">
       <Navigation />
       <Hero />
-      <div>{main.name}</div>
-      <input
-        type="text"
-        className="bg-gray-700 h-10 rounded-md"
-        id={"name"}
-      ></input>
-      <button className="bg-white text-black" onClick={() => handleClick()}>
-        CLICK
-      </button>
     </main>
   );
 }

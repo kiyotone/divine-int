@@ -5,3 +5,7 @@
 body{
   color: #eee
 }
+
+.button-primary{
+  @apply bg-[#2844a1] p-4 border-none text-[#eee] hover:bg-[#333333] hover:text-[#eee] ease-in duration-300;
+}

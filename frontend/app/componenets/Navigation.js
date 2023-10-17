@@ -34,7 +34,7 @@ export const Navigation = () => {
           </div>
         </div>
       </div>
-      <div className="navbar bg-[#374250] p-3 flex justify-around">
+      <div className="navbar bg-[#fff] p-3 flex justify-around text-[#333]">
         <div className="ml-[3rem]">
           <a href="#">
             <Image
@@ -45,7 +45,7 @@ export const Navigation = () => {
           </a>
         </div>
         <div className="flex-none  mr-[3rem]">
-          <ul className="menu menu-horizontal px-1 flex items-center">
+          <ul className="menu menu-horizontal px-1 flex items-center ">
             <li>
               <a>About Us</a>
             </li>
@@ -59,7 +59,7 @@ export const Navigation = () => {
               <a>Contact Us</a>
             </li>
             <li className="ml-1">
-              <button className="btn btn-success bg-[#2844a1] text-inherit p-4 border-none">
+              <button className="btn btn-success button-primary">
                 Join with us
               </button>
             </li>
