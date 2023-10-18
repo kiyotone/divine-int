@@ -21,7 +21,7 @@ const Hero = () => {
               Become A Medium Of Multi Things From The Base Of Agriculture To
               The High Point Of Science And Technology.
             </p>
-            <button className="btn button-primary">Join With Us</button>
+            <button className="btn  button-primary">Join With Us</button>
           </div>
         </div>
       </div>
