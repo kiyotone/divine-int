@@ -3,6 +3,7 @@ import { Navigation } from "./componenets/Navigation";
 import Hero from "./componenets/HomePage/Hero";
 import { useDispatch, useSelector } from "react-redux";
 import { changeName } from "./componenets/redux/mainSlice";
+import ContactForm from "./componenets/HomePage/ContactForm";
 
 export default function Home() {
   const main = useSelector((state) => state.main);
@@ -18,8 +19,15 @@ export default function Home() {
 
   return (
     <main className="text-white ">
-      <Navigation />
+      <div>
+      <Navigation />      
       <Hero />
+      </div>
+
+    <div>
+        <ContactForm />
+      </div>    
+
     </main>
   );
 }

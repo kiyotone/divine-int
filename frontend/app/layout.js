@@ -1,7 +1,7 @@
 import "./globals.css";
-import { Inter, Nanum_Gothic_Coding } from "next/font/google";
+import { Inter } from "next/font/google";
 import { ReduxProvider } from "./componenets/redux/provider";
-import { Navigation } from "./componenets/Navigation";
+
 
 const inter = Inter({ subsets: ["latin"] });
 
