@@ -1,6 +1,9 @@
+"use client";
+
 import React from "react";
 import Image from "next/image";
-import logo from "../../public/Picture1.png";
+import logo from "../../public/logo.png";
+import { useRouter } from "next/navigation";
 
 import Link from "next/link";
 import { BsTelephoneFill, BsFacebook } from "react-icons/bs";
@@ -8,6 +11,11 @@ import { RiTwitterXLine, RiInstagramLine } from "react-icons/ri";
 import { HiOutlineMail } from "react-icons/hi";
 
 export const Navigation = () => {
+  const router = useRouter();
+
+  const handleRoute = (route) => {
+    router.push(route);
+  };
   return (
     <div>
       <div className="p-2 bg-[#2844a1] flex justify-around text-xs">
@@ -34,13 +42,13 @@ export const Navigation = () => {
           </div>
         </div>
       </div>
-      <div className="navbar bg-[#fff] p-3 flex justify-around text-[#333]">
+      <div className="navbar bg-[#fafafa] p-3 flex justify-around text-[#333] shadow-md">
         <div className="ml-[3rem]">
-          <a href="#">
+          <a gref="#">
             <Image
               src={logo}
               alt="Divine Logo"
-              className="scale-100 h-14 w-80"
+              className="scale-100 h-14 w-80 cursor-pointer"
             />
           </a>
         </div>
@@ -59,9 +67,7 @@ export const Navigation = () => {
               <a>Contact Us</a>
             </li>
             <li className="ml-1">
-              <button className="btn btn-success button-primary">
-                Join with us
-              </button>
+              <button className="btn button-primary">Join with us</button>
             </li>
           </ul>
         </div>
