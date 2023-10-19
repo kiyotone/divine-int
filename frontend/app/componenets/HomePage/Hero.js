@@ -3,7 +3,7 @@ import hero from "../../../public/hero.jpeg";
 
 const Hero = () => {
   return (
-    <div>
+    <div className="mb-[48px]">
       <div
         className="hero min-h-[75vh]"
         style={{

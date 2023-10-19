@@ -33,11 +33,9 @@ const testimonials = [
 const Tesomonial = () => {
   return (
     <div className="bg-[#eee] p-big ">
-      <div className="container text-[#333] p-48px">
-        <div className=" w-[70rem]">
-          <h1 className="hrline mb-[32px] pl-[10rem] after:h-[2px]">
-            From Our Students
-          </h1>
+      <div className="container text-[#333] p-big">
+        <div className=" w-[70rem] mb-[32px] pl-[10rem]">
+          <h1 className="hrline  after:h-[2px]">From Our Students</h1>
         </div>
         <Swiper
           rewind={true}

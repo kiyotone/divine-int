@@ -8,17 +8,17 @@ const Destination = () => {
   return (
     <div className="bg-[#2844a1] p-big">
       <div className="container flex flex-col py-[32px] gap-[48px]">
-        <div className="flex  justify-center ">
+        <div className="flex justify-center ">
           <p className="hrline !text-[#eee]">Destinations</p>
         </div>
-        <div className="flex items-center text-[#333] justify-between">
+        <div className="flex items-center text-[#333] justify-between ">
           <div className="bg-[#fafafa] rounded-md ">
             <Image
               src={japan}
               className="h-[400px] scale-100 w-[400px] rounded-t-md"
               alt="Japan"
             />
-            <p className="p-5 text-center">Japan</p>
+            <p className="destination-country">Japan</p>
           </div>
           <div className="bg-[#fafafa] rounded-md ">
             <Image

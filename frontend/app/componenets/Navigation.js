@@ -12,21 +12,19 @@ import { HiOutlineMail } from "react-icons/hi";
 
 export const Navigation = () => {
   const router = useRouter();
-  const [show,changeShow] = useState(false);
-  
-  window.addEventListener('scroll',function () {
+  const [show, changeShow] = useState(false);
 
-    console.log(this.scrollY)
-    if(this.scrollY > 33){
+  window.addEventListener("scroll", function () {
+    console.log(this.scrollY);
+    if (this.scrollY > 33) {
       changeShow(true);
-    }
-    else{
-      changeShow(false)
+    } else {
+      changeShow(false);
     }
   });
 
   return (
-    <div className ={``}>
+    <div>
       <div className="px-40 py-2 bg-[#2844a1] flex justify-between text-xs">
         <div className="flex gap-5">
           <Link href="https://www.facebook.com/divinediaintl/" target="#">
@@ -51,9 +49,13 @@ export const Navigation = () => {
           </div>
         </div>
       </div>
-      <div className={`navbar ${ show &&  "fixed top-0 bg-gray-300"} transition-all ease-in-out duration-300 z-20 bg-[#fafafa] p-3 flex justify-around text-[#333] shadow-md`}>
+      <div
+        className={`navbar ${
+          show && "fixed top-0"
+        } transition-all ease-in-out duration-300 z-20 bg-[#fafafa] p-3 flex justify-around text-[#333] shadow-md`}
+      >
         <div className="ml-[3rem]">
-          <a gref="#">
+          <a href="#">
             <Image
               src={logo}
               alt="Divine Logo"

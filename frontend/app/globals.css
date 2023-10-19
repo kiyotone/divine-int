@@ -12,20 +12,23 @@ body{
 
 
 .m-big{
-  margin: 48px;
+  margin: 64px;
 }
 
+.p-sections{
+  padding: 64px;
+}
 .p-big{
   padding: 48px;
 }
-.p-big{
+.p-medium{
   padding: 32px;
 }
 .p-small{
   padding: 24px;
 }
 .button-primary{
-  @apply bg-[#2844a1] p-4 border-none text-[#eee] hover:bg-[#fadd88] hover:text-[#333] ease-in duration-300;
+  @apply bg-[#2844a1] p-4 border-none text-[#eee] hover:bg-[#fadd88] hover:text-[#333] ease-in duration-300 cursor-pointer;
 }
 
 .hrline{
@@ -66,4 +69,8 @@ body{
   --swiper-navigation-color: #28449f;
   --swiper-pagination-color: #28449f;
   --swiper-pagination-bullet-inactive-color: rgb(170, 139, 47);
+}
+
+.destination-country{
+  @apply p-5 text-center ;
 }
