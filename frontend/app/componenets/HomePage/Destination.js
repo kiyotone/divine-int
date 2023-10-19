@@ -1,8 +1,8 @@
 import Image from "next/image";
 import React from "react";
-import japan from "../../../public/japan.jpeg";
-import korea from "../../../public/korea.jpeg";
-import australia from "../../../public/australia.jpeg";
+import japan from "../../../public/Japan.jpeg";
+import korea from "../../../public/Korea.jpeg";
+import australia from "../../../public/Australia.jpeg";
 
 const Destination = () => {
   return (
