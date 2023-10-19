@@ -34,8 +34,8 @@ const Tesomonial = () => {
   return (
     <div className="bg-[#eee] py-[24px]">
       <div className="container text-[#333] ">
-        <div>
-          <h1 className="hrline mb-[32px] after:h-[3px]">From Our Students</h1>
+        <div className=" w-[70rem]">
+          <h1 className="hrline mb-[32px] pl-[10rem] after:h-[2px]">From Our Students</h1>
         </div>
         <Swiper
           rewind={true}

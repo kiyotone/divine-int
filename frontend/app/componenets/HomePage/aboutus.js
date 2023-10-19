@@ -4,12 +4,12 @@ import Image from "next/image";
 
 const AoutUs = () => {
   return (
-    <div className="container">
+    <div className="container w-[70rem] h-[40rem]">
       <div className="bg-[#fafafa] text-[#333] p-5 flex justify-center gap-[32px]">
-        <div>
+        <div className="">
           <h1 className="hrline">About Us</h1>
 
-          <div className="mt-[24px] ">
+          <div className="mt-[24px]">
             <p>
               Aiming for professional study from teen age high school students
               to MBA students in several institutes, colleges and universities.
@@ -23,7 +23,7 @@ const AoutUs = () => {
           </div>
         </div>
 
-        <div>
+        <div className="pt-[15rem] pl-20">
           <Image src={aboutus} alt="About us" className="rounded-xl" />
         </div>
       </div>
