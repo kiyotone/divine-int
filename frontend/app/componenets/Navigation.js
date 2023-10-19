@@ -14,14 +14,15 @@ export const Navigation = () => {
   const router = useRouter();
   const [show, changeShow] = useState(false);
 
-  window.addEventListener("scroll", function () {
-    console.log(this.scrollY);
-    if (this.scrollY > 33) {
-      changeShow(true);
-    } else {
-      changeShow(false);
-    }
-  });
+  if (typeof window !== "undefined") {
+    window.addEventListener("scroll", function () {
+      if (this.scrollY > 33) {
+        changeShow(true);
+      } else {
+        changeShow(false);
+      }
+    });
+  }
 
   return (
     <div>
@@ -51,7 +52,7 @@ export const Navigation = () => {
       </div>
       <div
         className={`navbar ${
-          show && "fixed top-0"
+          show && "fixed top-0 bg-gray-300"
         } transition-all ease-in-out duration-300 z-20 bg-[#fafafa] p-3 flex justify-around text-[#333] shadow-md`}
       >
         <div className="ml-[3rem]">
