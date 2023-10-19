@@ -24,6 +24,13 @@ export default function Home() {
       <Hero />
       </div>
 
+      <div>
+
+        
+
+      </div>
+
+
     <div>
         <ContactForm />
       </div>    
