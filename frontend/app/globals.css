@@ -22,6 +22,34 @@ body{
   @apply max-w-[1400px] my-0 mx-auto py-[48px] ;
 }
 .testomonial{
-  @apply before:absolute before:content-['"'] before:top-[-20px] before:text-8xl before:italic before:left-[-50px] before:text-secondary after:absolute after:content-['"'] after:bottom-[-50px] after:text-8xl after:italic after:right-5 after:text-secondary;
+  @apply before:absolute before:content-['"'] before:top-[-20px] before:text-8xl before:italic before:left-[-50px] before:text-secondary after:absolute after:content-['"'] after:bottom-[-50px]  after:text-8xl after:italic after:-right-5 after:text-secondary after:-z-10;
 }
 
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  background: #eee;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  object-fit: cover;
+}
+
+:root{
+  --swiper-navigation-size: 10px;
+  --swiper-navigation-top-offset: 50%;
+  --swiper-navigation-sides-offset: 10px;
+  --swiper-navigation-color: #28449f;
+  --swiper-pagination-color: #28449f;
+  --swiper-pagination-bullet-inactive-color: rgb(170, 139, 47);
+}

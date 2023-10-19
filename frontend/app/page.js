@@ -25,9 +25,7 @@ export default function Home() {
   return (
     <main className="text-white ">
       <Hero />
-
       <AboutUs />
-
       <Destination />
       <Uni />
       <Tesomonial />
