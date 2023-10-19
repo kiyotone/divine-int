@@ -7,7 +7,7 @@ import su from "../../../public/universities/su.jpg";
 
 const Uni = () => {
   return (
-    <div className="bg-white w-full pb-[48px]">
+    <div className="bg-white w-full p-big">
       <div className="container flex justify-between">
         <Image src={hu} alt="HU" className="h-[100px] w-[100px] scale-100" />
         <Image src={kc} alt="KC" className="h-[100px] w-[100px] scale-100" />

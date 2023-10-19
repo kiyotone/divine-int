@@ -10,6 +10,20 @@ body{
   color: #eee;
 }
 
+
+.m-big{
+  margin: 48px;
+}
+
+.p-big{
+  padding: 48px;
+}
+.p-big{
+  padding: 32px;
+}
+.p-small{
+  padding: 24px;
+}
 .button-primary{
   @apply bg-[#2844a1] p-4 border-none text-[#eee] hover:bg-[#fadd88] hover:text-[#333] ease-in duration-300;
 }

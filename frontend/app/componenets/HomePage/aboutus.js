@@ -5,11 +5,11 @@ import Image from "next/image";
 const AoutUs = () => {
   return (
     <div className="container">
-      <div className="bg-[#fafafa] text-[#333] p-5 flex justify-center gap-[32px]">
+      <div className="bg-[#fafafa] text-[#333] m-big p-big grid grid-cols-2 justify-center gap-[32px]">
         <div>
           <h1 className="hrline">About Us</h1>
 
-          <div className="mt-[24px] ">
+          <div className="mt-[32px] leading-8 tracking-wide">
             <p>
               Aiming for professional study from teen age high school students
               to MBA students in several institutes, colleges and universities.

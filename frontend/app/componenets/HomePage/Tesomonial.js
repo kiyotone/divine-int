@@ -32,8 +32,8 @@ const testimonials = [
 
 const Tesomonial = () => {
   return (
-    <div className="bg-[#eee] py-[24px]">
-      <div className="container text-[#333] ">
+    <div className="bg-[#eee] p-big ">
+      <div className="container text-[#333] p-48px">
         <div>
           <h1 className="hrline mb-[32px] after:h-[3px]">From Our Students</h1>
         </div>
