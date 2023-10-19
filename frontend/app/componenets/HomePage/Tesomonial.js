@@ -27,17 +27,6 @@ const testimonials = [
 ];
 
 const Tesomonial = () => {
-  const [currentState, setCurrentState] = useState(0);
-
-  const changeCurrentState = () => {
-    if (testimonials.length === 3) setCurrentState(0);
-    setCurrentState((prev) => {
-      prev++;
-    });
-  };
-
-  useEffect(() => {}, [currentState]);
-
   return (
     <div className="bg-[#eee]">
       <div className="container text-[#333] ">
