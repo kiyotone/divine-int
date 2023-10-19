@@ -71,69 +71,6 @@ const Tesomonial = () => {
             );
           })}
         </Swiper>
-        {/*<div className="carousel w-full overflow-y-hidden">
-          <div
-            id="item1"
-            className="carousel-item w-full flex flex-col items-center justify-center "
-          >
-            <Image
-              src={test2.src}
-              alt="Testomonial 1"
-              width={200}
-              height={200}
-            />
-            <div className="relative mt-[24px] w-1/2 italic testomonial">
-              <p>
-                As a student, Divine DIA has been a life-changing journey. They
-                turned my dream of studying abroad into a reality. With their
-                guidance, I gained admission to a top Korean university, and the
-                support they provided was invaluable. If you're an aspiring
-                student, Divine DIA is the path to achieving your dreams.
-              </p>
-            </div>
-            <div className="w-1/2 text-right">-Khem Gyawali</div>
-          </div>
-          <div
-            id="item2"
-            className="carousel-item w-full flex flex-col items-center justify-center "
-          >
-            <Image
-              src={test3.src}
-              alt="Testomonial 1"
-              width={200}
-              height={200}
-            />
-            <div className="relative mt-[24px] w-[50%] italic testomonial">
-              <p>
-                Divine DIA has been my guiding light on my educational journey.
-                They transformed my dreams of studying abroad into a reality,
-                and their support made it all possible. If you're a student with
-                big dreams, Divine DIA is the key to unlocking your potential.
-              </p>
-            </div>
-            <div className="w-1/2 text-right">-Kiran Dahal</div>
-          </div>
-          <div
-            id="item3"
-            className="carousel-item w-full flex flex-col items-center justify-center "
-          >
-            <Image
-              src={test4.src}
-              alt="Testomonial 1"
-              width={200}
-              height={200}
-            />
-            <div className="relative mt-[24px] w-[50%] italic testomonial">
-              <p>
-                As a student, Divine DIA has been my passport to success. They
-                made my dream of studying abroad come true with expert guidance
-                and unwavering support. If you're a student with ambitious
-                aspirations, Divine DIA is your partner on this incredible
-                journey.
-              </p>
-            </div>
-            <div className="w-1/2 text-right">-Ganesh Khadka</div>
-  </div>*/}
       </div>
     </div>
   );
