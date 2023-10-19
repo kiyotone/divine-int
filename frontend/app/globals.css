@@ -11,7 +11,7 @@ body{
 }
 
 .button-primary{
-  @apply bg-[#2844a1] p-4 border-none text-[#eee] hover:bg-[#333333] hover:text-[#eee] ease-in duration-300;
+  @apply bg-[#2844a1] p-4 border-none text-[#eee] hover:bg-[#fadd88] hover:text-[#333] ease-out duration-500;
 }
 
 .hrline{

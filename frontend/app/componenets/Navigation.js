@@ -33,7 +33,7 @@ export const Navigation = () => {
         <div className="flex items-center">
           <div className="flex gap-2 mx-6">
             <BsTelephoneFill className="text-[#fadd88] h-4 w-4 " />
-            <span>Phone No</span>
+            <span>986-1666714</span>
           </div>
           <div className="h-full rounded-md w-[1px] bg-[rgb(238,238,238,0.5)] "></div>
           <div className="flex gap-2 ml-3">

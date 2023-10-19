@@ -7,6 +7,8 @@ import Footer from "./componenets/HomePage/Footer";
 import AboutUs from "./componenets/HomePage/aboutus";
 import Tesomonial from "./componenets/HomePage/Tesomonial";
 import FromCEO from "./componenets/HomePage/FromCEO";
+import Destination from "./componenets/HomePage/Destination";
+import Uni from "./componenets/HomePage/Uni";
 
 export default function Home() {
   const main = useSelector((state) => state.main);
@@ -23,8 +25,11 @@ export default function Home() {
   return (
     <main className="text-white ">
       <Hero />
-      <div className="bg-[#d7d6d6] h-[25vh] w-full mb-[48px]"></div>
+
       <AboutUs />
+
+      <Destination />
+      <Uni />
       <Tesomonial />
       <FromCEO />
       <Footer />
